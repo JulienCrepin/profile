@@ -1,0 +1,93 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+.container {
+  width: 1000px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#game {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.card {
+  margin: 10 10 10 10;
+  background-color: rgba(250,250,250, 0.9);
+  border:1px solid;
+  border-color: rgba(190,190,190, 0.2);
+  border-radius: 7px;
+  box-shadow:3px 3px 3px rgba(20, 20, 20, 0.1);
+}
+
+div {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  text-align: center;
+}
+
+body {
+  background-color: #F4F4F4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #444444;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-family:'Montserrat', sans-serif;
+  color:#1b2618;
+  font-size: 230%;
+  line-height: 30px;
+}
+
+h1 {
+  color: #DB1B2A;
+}
+
+h2 {
+  font-size: 160%
+}
+
+a {
+  font-family:'Montserrat', sans-serif;
+  font-size: 15px;
+  color: rgb(70,70,70);
+  padding: 25px 15px 25px 15px;
+}
+
+a:hover {
+  color: rgba(70,70,70, 0.3);
+  padding: 40px 30px 40px 30px;
+}
+
+td {
+  padding: 10px
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
